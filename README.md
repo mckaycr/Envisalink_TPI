@@ -9,7 +9,7 @@ Credit goes to  [AlarmServer project for DSC panels](https://github.com/juggie/A
 
 create a test.js file that contains:
 ```
-var sys_res = require('/home/mckaycr/Documents/ademco.js');
+var sys_res = require('ademco');
 console.log(sys_res(process.argv[2]));
 ```
 Then run it like this:
@@ -30,6 +30,8 @@ The object returned will look like this:
   raw: '%00,01,1C08,08,04, MCKAYS SYSTEM Ready to Arm $' }
   ```
 ### WHATS NEXT ###
+
+Register this as an NPM package
 
 If anyone wants to help contribute a similar object for DSC systems that would be great.  I'd do it but I don't have the panel to play with.  The goal is to provide a module that anyone can pick up and use to build a more dynamic client application for the Envisalink like what I'm doing with my [EnvisaClient](https://github.com/mckaycr/envisaclient)
 
