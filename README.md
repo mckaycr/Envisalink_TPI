@@ -14,7 +14,7 @@ console.log(sys_res(process.argv[2]));
 ```
 Then run it like this:
 ```
-node test '%00,01,1C08,08,04, MCKAYCR SYSTEM Ready to Arm $'
+node test '%00,01,1C08,08,00, MCKAYCR SYSTEM Ready to Arm $'
 ```
 The object returned will look like this:
 ```
@@ -25,7 +25,7 @@ The object returned will look like this:
   partition: 'Partition: 01',
   icons: 'READY,AC PRESENT',
   numeric: '08',
-  beeps: 'Coninuous Fast Beep (trouble/urgency)',
+  beeps: 'OFF',
   msg: 'MCKAYS SYSTEM Ready to Arm',
   raw: '%00,01,1C08,08,04, MCKAYS SYSTEM Ready to Arm $' }
   ```
