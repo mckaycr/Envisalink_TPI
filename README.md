@@ -1,5 +1,5 @@
 #### Envisalink_TPI ####
-This project is to create a module for use with nodeJS applications that accept responses from the Envisalink server and provide a useful object for your custom client application.
+This project is to create a module for use with [NodeJS](https://nodejs.org/) applications that accept responses from the Envisalink server and provide a useful object for your custom client application.
 
 This project uses the [Ademco TPI provided by Eyez-On](http://forum.eyez-on.com/FORUM/viewtopic.php?f=6&t=301).  It processes events from the Envisalink server and provides an easy object for node applications clients.
 
